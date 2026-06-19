@@ -14,12 +14,12 @@ const CONFIG = {
   weatherSources: [
     {
       name: "Owenninney",
-      url: "https://openaccess.pf.api.met.ie/metno-wdb2ts/locationforecast?lat=54.17367844330243;long=-9.557268307800891",
+      url: "http://openaccess.pf.api.met.ie/metno-wdb2ts/locationforecast?lat=54.17367844330243;long=-9.557268307800891",
       sourceNote: "Original published endpoint uses HTTP. HTTPS is used here to avoid mixed-content blocking on GitHub Pages."
     },
     {
       name: "Altnabrocky",
-      url: "https://openaccess.pf.api.met.ie/metno-wdb2ts/locationforecast?lat=54.060586257345676;long=-9.61700646706997",
+      url: "http://openaccess.pf.api.met.ie/metno-wdb2ts/locationforecast?lat=54.060586257345676;long=-9.61700646706997",
       sourceNote: "Original published endpoint uses HTTP. HTTPS is used here to avoid mixed-content blocking on GitHub Pages."
     }
   ]
