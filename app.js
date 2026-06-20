@@ -14,7 +14,7 @@ const CONFIG = {
   weatherSources: [
     {
       name: "Owenninney",
-      url: "http://openaccess.pf.api.met.ie/metno-wdb2ts/locationforecast?lat=54.17367844330243;long=-9.557268307800891",
+      url: "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=54.17&lon=-9.55",
       sourceNote: "Original published endpoint uses HTTP. HTTPS is used here to avoid mixed-content blocking on GitHub Pages."
     },
     {
